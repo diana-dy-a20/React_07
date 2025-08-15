@@ -1,0 +1,19 @@
+.card {
+	max-width: 176px;
+	padding: 15px;
+	border: 1px solid #DEDCDA;
+	background: #FEFEFF;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	transition: all 0.4s;
+}
+.image {
+	max-width: 100%;
+	aspect-ratio: 2/1;
+	object-fit: contain;
+}
+.card:hover {
+	transition: all 0.4s;
+	box-shadow: 2px 2px 5px 3px #69B99D;
+}
